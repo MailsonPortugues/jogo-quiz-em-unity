@@ -504,14 +504,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 155383974}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0734cd8cb3c7bab4394b0e1c350fa9bb, type: 3}
+  m_Script: {fileID: 11500000, guid: 227e0454cbd240c43aa3559302c52e70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   idTema: 2
-  nomeTema: "Hist\xF3ria do Brasil"
-  corTema: {r: 0, g: 0.681, b: 0.2965517, a: 1}
-  notaMin1Estrela: 5
-  notaMin2Estrelas: 7
+  nomeTema: "Hist\xF3ria"
+  corTema: {r: 0, g: 0, b: 0, a: 0}
+  notaMin1Estrela: 0
+  notaMin2Estrelas: 0
   idTemaTxt: {fileID: 2062912581}
   estrela:
   - {fileID: 1666113106}
@@ -1032,7 +1032,6 @@ GameObject:
   - component: {fileID: 474941990}
   - component: {fileID: 474941991}
   - component: {fileID: 474941992}
-  - component: {fileID: 474941993}
   m_Layer: 5
   m_Name: btn_01
   m_TagString: Untagged
@@ -1102,7 +1101,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 474941993}
+      - m_Target: {fileID: 474941992}
         m_MethodName: selecionarTema
         m_Mode: 1
         m_Arguments:
@@ -1184,25 +1183,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 474941985}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 37825c7722ee405478a89750a9ccc3b2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &474941993
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 474941985}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0734cd8cb3c7bab4394b0e1c350fa9bb, type: 3}
+  m_Script: {fileID: 11500000, guid: 227e0454cbd240c43aa3559302c52e70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   idTema: 1
-  nomeTema: 'Ortografia: Emprego das Letras'
-  corTema: {r: 0, g: 0.844, b: 1, a: 1}
-  notaMin1Estrela: 5
-  notaMin2Estrelas: 7
+  nomeTema: Ortografia
+  corTema: {r: 0, g: 0, b: 0, a: 0}
+  notaMin1Estrela: 0
+  notaMin2Estrelas: 0
   idTemaTxt: {fileID: 101953005}
   estrela:
   - {fileID: 1032859099}
@@ -3312,8 +3300,8 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 1499952110}
-        m_MethodName: selecionarTema
+      - m_Target: {fileID: 1499952108}
+        m_MethodName: 
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3601,6 +3589,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1672053562}
   - component: {fileID: 1672053563}
+  - component: {fileID: 1672053564}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -3632,6 +3621,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b98358c3c6e96d2459d33ec1e779cae9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &1672053564
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1672053561}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc45f0f0d3c42a04dabfd51114959eb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  nomeTemaTxt: {fileID: 546116234}
+  btnJogar: {fileID: 0}
 --- !u!1 &1831995290
 GameObject:
   m_ObjectHideFlags: 0
