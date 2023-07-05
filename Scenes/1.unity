@@ -185,7 +185,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 521870874}
+      - m_Target: {fileID: 521870873}
         m_MethodName: responder
         m_Mode: 5
         m_Arguments:
@@ -524,7 +524,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 521870874}
+      - m_Target: {fileID: 521870873}
         m_MethodName: responder
         m_Mode: 5
         m_Arguments:
@@ -1007,8 +1007,7 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 521870872}
-  - component: {fileID: 521870874}
-  - component: {fileID: 521870875}
+  - component: {fileID: 521870873}
   m_Layer: 0
   m_Name: GameController
   m_TagString: Untagged
@@ -1029,7 +1028,7 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &521870874
+--- !u!114 &521870873
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
@@ -1037,82 +1036,39 @@ MonoBehaviour:
   m_GameObject: {fileID: 521870871}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2b902668c1be6054c9f0bdf251d79c31, type: 3}
+  m_Script: {fileID: 11500000, guid: c6d38a726f77064468dd16f857201bc6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   nomeTemaTxt: {fileID: 1736484644}
   perguntaTxt: {fileID: 1508887908}
   perguntaIMG: {fileID: 0}
   infoRespostasTxt: {fileID: 124424911}
-  notaFinalTxt: {fileID: 826977875}
-  msg1Txt: {fileID: 925603652}
-  msg2Txt: {fileID: 384008587}
-  altAtxt: {fileID: 0}
-  altBtxt: {fileID: 0}
-  altCtxt: {fileID: 0}
-  altDtxt: {fileID: 0}
+  notaFinalTxt: {fileID: 0}
+  msg1Txt: {fileID: 0}
+  msg2Txt: {fileID: 0}
   barraProgresso: {fileID: 587487437}
   barraTempo: {fileID: 1434971330}
   botoes:
   - {fileID: 11852056}
   - {fileID: 180419132}
-  corAcerto: {r: 0, g: 0.978, b: 0, a: 1}
-  corErro: {r: 1, g: 0, b: 0, a: 1}
+  corAcerto: {r: 0, g: 0, b: 0, a: 0}
+  corErro: {r: 0, g: 0, b: 0, a: 0}
   perguntasComIMG: 0
   perguntasAleatorias: 0
   utilizarAlternativas: 0
-  jogarComTempo: 0
+  jogarComTempo: 1
   tempoResponder: 10
-  mostrarCorreta: 1
-  qtdPiscar: 5
+  mostrarCorreta: 0
+  qtdPiscar: 0
   perguntas:
-  - "Bl\xE1 bl\xE1 bl\xE1, bil\xFA bil\xFA teteia."
-  - Lorem ipsum nois dmaises, muits legalis.
-  - Bones dmaises, scorrects
+  - Blablabla Bilu bilu teteia
+  - Lorem ipsum bones demaises corects
   perguntasIMG: []
   correta:
   - A
-  - A
   - B
-  qtdPerguntas: 3
+  qtdPerguntas: 0
   listaPerguntas: 
-  alternativaA: []
-  alternativaB: []
-  alternativaC: []
-  alternativaD: []
-  paineis:
-  - {fileID: 1831624349}
-  - {fileID: 1878470958}
-  estrela:
-  - {fileID: 1999062960}
-  - {fileID: 199820923}
-  - {fileID: 1672531464}
-  mensagem1:
-  - Ops!!
-  - Vamos La!
-  - Mandou Bem!
-  - "Parab\xE9ns!!!"
-  mensagem2:
-  - "Voc\xEA precisa estudar mais o assunto."
-  - "Vamos l\xE1, voc\xEA consegue!"
-  - "Voc\xEA est\xE1 indo bem, mas pode melhorar."
-  - "Uau, voc\xEA acertou todas!!"
-  corMensagem:
-  - {r: 1, g: 0, b: 0, a: 1}
-  - {r: 1, g: 1, b: 1, a: 1}
-  - {r: 1, g: 1, b: 0.8088235, a: 1}
-  - {r: 0.9862069, g: 1, b: 0, a: 1}
---- !u!114 &521870875
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 521870871}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ee03361528377174087f58347a077d96, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!1 &587487437
 GameObject:
   m_ObjectHideFlags: 0
@@ -1570,7 +1526,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 521870875}
+      - m_Target: {fileID: 0}
         m_MethodName: irParaCena
         m_Mode: 5
         m_Arguments:
@@ -2170,7 +2126,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 521870875}
+      - m_Target: {fileID: 0}
         m_MethodName: irParaCena
         m_Mode: 5
         m_Arguments:
@@ -2932,7 +2888,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 521870875}
+      - m_Target: {fileID: 0}
         m_MethodName: jogarNovamente
         m_Mode: 1
         m_Arguments:
